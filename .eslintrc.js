@@ -1,11 +1,11 @@
 module.exports = {
   extends: [
     "airbnb",
-    "eslint",
+    "eslint:recommended",
     "plugin:import/errors",
-    "plugin:react",
-    "plugin:jsx-a11y",
-    "plugin:prettier",
+    "plugin:react/recommended",
+    "plugin:jsx-a11y/recommended",
+    "plugin:prettier/recommended",
     "prettier/react",
   ],
   plugins: ["react-hooks"],
@@ -13,6 +13,6 @@ module.exports = {
     "prettier/prettier": ["error"],
     "react/jsx-filename-extension": ["warn", { extensions: [".js", ".jsx"] }],
     "react/jsx-props-no-spreading": ["off"],
-    "import/no-extraneous-dependencies": ["error", { devDependencies: true }],
+    "import/prefer-default-export": "off",
   },
 };
