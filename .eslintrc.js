@@ -11,8 +11,7 @@ module.exports = {
   plugins: ["react-hooks"],
   rules: {
     "prettier/prettier": ["warn"],
-    "react/jsx-filename-extension": ["warn", { extensions: [".js",] }],
+    "react/jsx-filename-extension": ["warn", { extensions: [".js"] }],
     "react/jsx-props-no-spreading": ["off"],
-    "import/no-extraneous-dependencies": ["warn", { devDependencies: true }],
   },
 };
