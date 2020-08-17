@@ -1,9 +1,8 @@
-<h1>No-Sweat™ Eslint and Prettier Setup</h1>
-<p>These are my settings for ESLint and Prettier</p>
+<h1>Eslint Setup</h1>
+
 <p>You might like them - or you might not. Don't worry you can always change them.</p>
 
-<h2>
-    Local / Per Project Install</h2>
+<h2>Local / Per Project Install</h2>
 <ol>
 <li>
 <p>If you don't already have a <code>package.json</code> file, create one with <code>npm init</code>.</p>
