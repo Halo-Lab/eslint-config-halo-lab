@@ -11,7 +11,7 @@
 <p>Then we need to install everything needed by the config:</p>
 </li>
 </ol>
-<pre><code>npx install-peerdeps --dev eslint-config-halo=lab
+<pre><code>npx install-peerdeps --dev eslint-config-halo-lab
 </code></pre>
 <ol start="3">
 <li>
