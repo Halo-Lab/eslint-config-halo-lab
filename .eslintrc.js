@@ -10,7 +10,6 @@ module.exports = {
     "react/button-has-type": "off",
     "jsx-a11y/anchor-is-valid": "off",
     "no-underscore-dangle": "off",
-    "no-shadow": "off",
     "object-curly-newline": "off",
   },
 };

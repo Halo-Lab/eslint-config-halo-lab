@@ -11,7 +11,7 @@
 <p>Then we need to install everything needed by the config:</p>
 </li>
 </ol>
-<pre><code>npx install-peerdeps --dev eslint-config-halo-config
+<pre><code>npx install-peerdeps --dev eslint-config-halo=lab
 </code></pre>
 <ol start="3">
 <li>
@@ -23,6 +23,6 @@
 </ol>
 <div class="highlight highlight-source-json"><pre>{
   <span class="pl-s"><span class="pl-pds">"</span>extends<span class="pl-pds">"</span></span>: [
-    <span class="pl-s"><span class="pl-pds">"</span>halo-config<span class="pl-pds">"</span></span>
+    <span class="pl-s"><span class="pl-pds">"</span>halo-lab<span class="pl-pds">"</span></span>
   ]
 }</pre></div>
