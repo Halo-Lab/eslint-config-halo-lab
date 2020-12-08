@@ -3,13 +3,7 @@ module.exports = {
   plugins: ["react-hooks", "jsx", "prettier", "react"],
   rules: {
     quotes: "off",
-    "import/no-unresolved": "off",
-    "react/react-in-jsx-scope": "off",
-    "react/jsx-filename-extension": [1, { extensions: [".js", ".jsx"] }],
+    "react/jsx-filename-extension": [1, { extensions: [".js"] }],
     "import/prefer-default-export": "off",
-    "react/button-has-type": "off",
-    "jsx-a11y/anchor-is-valid": "off",
-    "no-underscore-dangle": "off",
-    "object-curly-newline": "off",
   },
 };
