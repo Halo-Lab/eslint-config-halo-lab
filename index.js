@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ["eslint:recommended", "airbnb", "prettier"],
+  extends: ["eslint:recommended", "airbnb", "prettier", "prettier/react"],
   plugins: ["react-hooks", "jsx", "prettier", "react", "unicorn"],
   env: {
     browser: true,
@@ -9,7 +9,14 @@ module.exports = {
   rules: {
     quotes: "off",
     "react/jsx-filename-extension": [1, { extensions: [".js"] }],
+    "import/no-extraneous-dependencies": ["error", { devDependencies: true }],
+    "import/extensions": [
+      "off",
+      { js: "never", json: "never", scss: "always" },
+    ],
     "import/prefer-default-export": "off",
     "react/react-in-jsx-scope": "off",
+    "react/jsx-props-no-spreading": "off",
+    "import/no-unresolved": "off",
   },
 };
