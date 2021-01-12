@@ -1,10 +1,12 @@
 module.exports = {
   extends: ["eslint:recommended", "airbnb", "prettier", "prettier/react"],
   plugins: ["react-hooks", "jsx", "prettier", "react", "unicorn"],
+  parser: "babel-eslint",
   env: {
     browser: true,
     node: true,
     jest: true,
+    es6: true,
   },
   rules: {
     quotes: "off",
