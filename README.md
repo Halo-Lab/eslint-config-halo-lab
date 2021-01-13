@@ -1,40 +1,16 @@
-# Eslint Setup 
-You might like them - or you might not. Don't worry you can always change them.
+# Eslint halo lab config
 
-## Local / Per Project Install
-
-1. If You don't already have a ```package.json``` file, create one with ```npm init```.
-
-2. Then we need to install everything needed by the config:
+## Installation
 ```
 npm install --save-dev eslint-config-halo-lab
 ```
-3. You can see in your package.json there are now a big list of devDependencies.
-4. Create a ```.eslintrc``` file in the root of your project's directory (it should live where package.json does). In case of minimal setup your ```.eslintrc``` file should look like this:
 
+## Usage
+In ```.eslintrc```:
 ```json
 {
   "extends": [
     "halo-lab"
-  ]
-}
-```
-
-5. In case You are using cypress in your project install plugin.
-
-```
-npm install eslint-plugin-cypress --save-dev
-```
-
-And add it to ```.eslintrc```
-
-```json
-{
-  "extends": [
-    "halo-lab"
-  ],
-  "plugins": [
-    "cypress"
   ]
 }
 ```
