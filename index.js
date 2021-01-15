@@ -10,7 +10,7 @@ module.exports = {
   },
   rules: {
     quotes: "off",
-    "react/jsx-filename-extension": [1, { extensions: [".js", ".jsx"] }],
+    "react/jsx-filename-extension": [1, { extensions: [".js"] }],
     "import/no-extraneous-dependencies": ["error", { devDependencies: true }],
     "import/extensions": [
       "off",
