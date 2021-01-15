@@ -29,7 +29,7 @@ module.exports = {
   },
   overrides: [
     {
-      files: ["*.js", "*.jsx"], // If needed add here file extensions which eslint will be checking
+      files: ["*.js", "*.jsx", "*.ts", "*.tsx"], // If needed add here file extensions which eslint will be checking
     }
   ]
 };
