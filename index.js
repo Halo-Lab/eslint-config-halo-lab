@@ -10,7 +10,7 @@ module.exports = {
   },
   rules: {
     quotes: "off",
-    "react/jsx-filename-extension": [1, { extensions: [".js"] }],
+    "react/jsx-filename-extension": [1, { extensions: [".js", ".jsx"] }],
     "import/no-extraneous-dependencies": ["error", { devDependencies: true }],
     "import/extensions": [
       "off",
@@ -27,4 +27,9 @@ module.exports = {
       }
     }]
   },
+  overrides: [
+    {
+      files: ["*.js", "*.jsx"], // If needed add here file extensions which eslint will be checking
+    }
+  ]
 };
