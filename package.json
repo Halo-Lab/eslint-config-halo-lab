@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-halo-lab",
-  "version": "1.0.15",
+  "version": "1.0.16",
   "description": "Eslint config that halo lab development team is using for ReactJS projects",
   "main": "index.js",
   "scripts": {
